@@ -12,7 +12,21 @@ The project explores the design, manufacturing, and control of a high-ratio tran
 
 **Check out MEDIA.md to see some videos I made on this cycloidal drive!**
 ---
+# Project Status
 
+**Mechanical prototype: COMPLETE**
+
+**Motor integration: COMPLETE**
+
+**Experimental characterization: IN PROGRESS**
+
+**Integration into robotic arm: IN PROGRESS**
+
+**Current CAD Model as of 8/30/26:**
+<p align="center">
+<img width="910" height="638" alt="image" src="https://github.com/user-attachments/assets/2d3cfad0-d1ae-4bea-b9f9-c32c8894147a" />
+<p/>
+---
 ## Project Overview
 
 The transmission is a custom **two-stage cycloidal drive** designed to serve as a high-torque joint actuator for a robotic arm.
@@ -522,20 +536,3 @@ This project combines several areas of engineering:
 * Joint transmission
 * Closed-loop control
 * Robotic arm integration
-
----
-
-# Project Status
-
-**Mechanical prototype: COMPLETE**
-
-**Motor integration: COMPLETE**
-
-**Experimental characterization: IN PROGRESS**
-
-**Integration into robotic arm: IN PROGRESS**
-
-**Current CAD Model as of 8/30/26:**
-<p align="center">
-<img width="910" height="638" alt="image" src="https://github.com/user-attachments/assets/2d3cfad0-d1ae-4bea-b9f9-c32c8894147a" />
-<p/>
