@@ -27,6 +27,7 @@ The project explores the design, manufacturing, and control of a high-ratio tran
 <img width="910" height="638" alt="image" src="https://github.com/user-attachments/assets/2d3cfad0-d1ae-4bea-b9f9-c32c8894147a" />
 <p/>
 ---
+
 ## Project Overview
 
 The transmission is a custom **two-stage cycloidal drive** designed to serve as a high-torque joint actuator for a robotic arm.
