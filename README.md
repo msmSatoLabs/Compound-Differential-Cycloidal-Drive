@@ -417,6 +417,7 @@ Inspired by ["A New Design of a Two-Stage Cycloidal Speed Reducer"](https://www.
   <img width="33%" alt="Early CAD development of cycloidal geometry" src="https://github.com/user-attachments/assets/02976fd0-54f0-4e32-be57-a97446dc3f08" />
 </p>
 
+
 ---
 
 ## 3. 3D-Printing and Assembly
