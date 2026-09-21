@@ -147,7 +147,7 @@ $$
 as is the case here, the final expression for the speed reducer ratio $u_{\mathrm{CR}}$ is
 
 $$
-u_{\mathrm{CR}} = Z_{11} \cdot Z_{22} = 11 \cdot 12 = 121
+u_{\mathrm{CR}} = Z_{11} \cdot Z_{22} = 11 \cdot 11 = 121
 $$
 
 ### Important distinction
