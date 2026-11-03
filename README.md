@@ -4,6 +4,8 @@ A custom-designed, 3D-printed two-stage cycloidal drive developed as the transmi
 
 The project explores the design, manufacturing, and control of a high-ratio transmission capable of converting the high-speed, relatively low-torque output of a BLDC motor into the high-torque, low-speed motion required for a robotic arm.
 
+> **Sponsor:** This project was supported by **[PCBWay](https://www.pcbway.com)**, which sponsored two **CNC-machined metal cycloidal discs** for the gearbox. All measurements, test results, and opinions in this repository are my own. See [PCBWay Sponsorship: Metal CNC Cycloidal Discs](#pcbway-sponsorship-metal-cnc-cycloidal-discs) near the end of this page.
+
 <p align="center">
   <img width="75%" alt="Assembled two-stage cycloidal drive" src="https://github.com/user-attachments/assets/79df8333-416f-4b2a-8f23-640c26adfa3a" />
 </p>
@@ -11,6 +13,7 @@ The project explores the design, manufacturing, and control of a high-ratio tran
 > **Current status:** Mechanical assembly completed and connected to the BLDC motor. The theoretical reduction ratio is **121:1**, although the actual reduction ratio has not yet been experimentally verified. It is currently mounted to a bracket that will serve as the base joint of a robotic arm.
 
 **Check out MEDIA.md to see some videos I made on this cycloidal drive!**
+
 ---
 # Project Status
 
@@ -22,10 +25,13 @@ The project explores the design, manufacturing, and control of a high-ratio tran
 
 **Integration into robotic arm: IN PROGRESS**
 
+**PCBWay CNC metal discs: [PLACEHOLDER: ordered / received / installed / tested]**
+
 **Current CAD Model as of 8/30/26:**
 <p align="center">
 <img width="910" height="638" alt="image" src="https://github.com/user-attachments/assets/2d3cfad0-d1ae-4bea-b9f9-c32c8894147a" />
-<p/>
+</p>
+
 ---
 
 ## Project Overview
@@ -35,6 +41,8 @@ The transmission is a custom **two-stage cycloidal drive** designed to serve as 
 The original design target was a **121:1 overall reduction ratio**, allowing a relatively compact BLDC motor to produce substantially higher torque at the output.
 
 The gearbox was designed, parametrically modeled, 3D printed, assembled, and connected to the motor. Future testing will characterize its actual reduction ratio, torque capacity, backlash, friction, and efficiency.
+
+The prototype is primarily 3D printed, with **two CNC-machined metal cycloidal discs provided by PCBWay** to evaluate how much a precision-machined metal disc improves on the printed baseline.
 
 ### Target Specifications
 
@@ -51,8 +59,9 @@ The gearbox was designed, parametrically modeled, 3D printed, assembled, and con
 | Static payload torque       |                         ~245 N·m |
 | Target output torque        |                         ~490 N·m |
 | Drive type                  |              Two-stage cycloidal |
-| Manufacturing                | FDM 3D printing + metal hardware |
+| Manufacturing                | FDM 3D printing + CNC-machined metal discs (PCBWay) + metal hardware |
 | Primary prototype material   |                             PETG |
+| Cycloidal disc material (PCBWay CNC) |        [PLACEHOLDER: material] |
 | Bearings                     |                    Ball bearings |
 | Fasteners                    |  M3-M6 screws + heat-set inserts |
 
@@ -83,6 +92,8 @@ Rather than designing around specialized industrial manufacturing processes, the
 ### Modular design
 
 The transmission is divided into stages and assemblies so that individual components can be redesigned or replaced without completely rebuilding the mechanism.
+
+This modularity is what allows the printed cycloidal discs to be swapped for CNC-machined metal ones without changing the rest of the gearbox.
 
 ### Iterative development
 
@@ -227,11 +238,15 @@ The parametric approach allows the cycloidal profile to be regenerated when chan
 * Manufacturing tolerances
 
 <img width="893" height="788" alt="image" src="https://github.com/user-attachments/assets/bde15819-0750-4a92-99d5-8f6896092f18" />
+
 *Stage 1 Reduction*
+
 <img width="980" height="790" alt="image" src="https://github.com/user-attachments/assets/dac59413-becc-4be4-bd84-1febd4faef5a" />
+
 *Stage 2 Reduction*
 
-This was particularly useful during the iterative development process because changes to the gearbox geometry could be propagated without manually rebuilding the cycloidal profile.
+This was particularly useful during the iterative development process because changes to the gearbox geometry could be propagated without manually rebuilding the cycloidal profile. The same parametric model was used to export the geometry sent to PCBWay for CNC machining.
+
 ---
 
 # Bearing System
@@ -326,6 +341,19 @@ A segmented shaft printed out of PETG is used to transmit torque between the mot
 
 A keyed connection was selected to provide positive mechanical torque transmission rather than relying solely on friction, and to slide easily onto the motor's shaft.
 
+### Cycloidal Discs (PCBWay CNC-Machined Metal)
+
+Two cycloidal discs were CNC-machined in metal by PCBWay and are used in place of the printed discs.
+
+* Quantity: **2** ([PLACEHOLDER: which stage(s) each disc belongs to, e.g. one for Stage 1 and one for Stage 2])
+* Material: [PLACEHOLDER: material]
+* Finish: [PLACEHOLDER: as-machined / anodized / other]
+* Full details, measurements, and test results: see [PCBWay Sponsorship](#pcbway-sponsorship-metal-cnc-cycloidal-discs)
+
+<p align="center">
+  <img width="45%" alt="PCBWay CNC-machined metal cycloidal discs" src="PLACEHOLDER_pcbway_discs_overview.jpg" />
+</p>
+
 ### Fasteners
 
 * M2-M6 screws
@@ -337,11 +365,13 @@ A keyed connection was selected to provide positive mechanical torque transmissi
 
 # Manufacturing
 
-The prototype was primarily manufactured using **FDM 3D printing**.
+The prototype was primarily manufactured using **FDM 3D printing**, with the exception of the **two CNC-machined metal cycloidal discs manufactured by PCBWay**.
 
 PETG was used for the initial prototype because of its accessibility and relatively good mechanical properties.
 
 Carbon-fiber reinforced nylon and PETGCF20 was also investigated as a potential material for higher-performance components, specifically for the cycloidal discs and shaft components.
+
+The CNC-machined metal discs are the next step beyond these printed materials, since the discs carry the load and mesh with the rollers directly.
 
 The printed components required significant post-processing, including:
 
@@ -478,6 +508,20 @@ The theoretical reduction ratio is **121:1**, but the actual ratio has not yet b
 * [ ] Determine maximum safe operating load
 * [ ] Evaluate structural deformation
 * [ ] Identify components requiring redesign
+* [ ] Compare printed discs vs. PCBWay CNC metal discs (backlash, friction, efficiency, current draw)
+
+---
+
+## 6. Metal CNC Discs from PCBWay
+
+**Date:** [PLACEHOLDER: order date] - [PLACEHOLDER: installation date]
+
+* Exported cycloidal disc geometry from the parametric CAD model
+* Ordered two CNC-machined metal discs through PCBWay
+* Received, inspected, and measured the parts
+* [PLACEHOLDER: installed in gearbox / testing status]
+
+Full details are in the [PCBWay Sponsorship](#pcbway-sponsorship-metal-cnc-cycloidal-discs) section below.
 
 ---
 
@@ -497,6 +541,103 @@ Planned improvements include:
 * Closed-loop position sensing
 * Motor controller integration
 * Robotic arm integration
+* [PLACEHOLDER: further metal components based on how the PCBWay discs perform]
 
 Ultimately, the goal is to determine how closely the physical gearbox performs to its theoretical design and identify the limiting components of the transmission.
 
+---
+
+# PCBWay Sponsorship: Metal CNC Cycloidal Discs
+
+> **Disclosure:** PCBWay sponsored the two CNC-machined cycloidal discs described in this section. All measurements, test results, and opinions are my own.
+
+<p align="center">
+  <img width="75%" alt="PCBWay CNC-machined cycloidal discs next to the gearbox" src="PLACEHOLDER_pcbway_hero.jpg" />
+</p>
+
+## 1. About PCBWay
+
+[PCBWay](https://www.pcbway.com) is an online manufacturing service. [PLACEHOLDER: 2-3 sentences in my own words on PCBWay's services, e.g. PCB fabrication, CNC machining, 3D printing, sheet metal; verify against pcbway.com]
+
+For this project I used their **CNC machining** service to produce the metal cycloidal discs.
+
+## 2. Project Background
+
+[PLACEHOLDER: short story of why metal discs were needed.]
+
+Points to cover:
+
+* The discs carry the load in each stage and mesh directly with the rollers, so profile accuracy and wear resistance matter
+* The target output torque is ~490 N·m, and printed discs are limited by layer adhesion, print orientation, and stress concentrations (see [Engineering Challenges](#engineering-challenges))
+* The parametric CAD model made it possible to export the exact disc geometry (R = 176 mm PCD, roller radius 11 mm, eccentricity 3 mm) for machining
+* [PLACEHOLDER: which stage(s) the two discs are for, and what I want to learn from replacing the printed discs]
+
+## 3. Ordering Process
+
+| Step | What I did | Screenshot |
+| ---- | ---------- | ---------- |
+| 1. Export CAD | [PLACEHOLDER: file format, e.g. STEP, and any prep] | `PLACEHOLDER_order_step1.png` |
+| 2. Upload and configure | [PLACEHOLDER: material, finish, quantity, tolerance selections] | `PLACEHOLDER_order_step2.png` |
+| 3. Notes for the machinist | [PLACEHOLDER: critical features called out] | `PLACEHOLDER_order_step3.png` |
+| 4. Review and confirm | [PLACEHOLDER: any questions or feedback from PCBWay's engineers] | `PLACEHOLDER_order_step4.png` |
+| 5. Production and shipping | [PLACEHOLDER: order date, ship date, arrival date] | `PLACEHOLDER_order_step5.png` |
+
+## 4. Unboxing
+
+<p align="center">
+  <img width="45%" alt="PCBWay package as received" src="PLACEHOLDER_unboxing_package.jpg" />
+  <img width="45%" alt="CNC discs unpacked" src="PLACEHOLDER_unboxing_parts.jpg" />
+</p>
+
+* **Packaging:** [PLACEHOLDER: how the parts were protected]
+* **Quantity received:** [PLACEHOLDER: 2 of 2 discs, anything else included]
+* **Surface quality:** [PLACEHOLDER: tool marks, burrs, edge condition, finish consistency]
+* **Notes:** [PLACEHOLDER: any cosmetic issues or surprises]
+
+<p align="center">
+  <img width="75%" alt="Close-up of CNC disc surface and lobes with scale reference" src="PLACEHOLDER_surface_closeup.jpg" />
+</p>
+
+## 5. Dimensions and Precision
+
+Measured with: [PLACEHOLDER: calipers / micrometer / pin gauges / bore gauge]. Measurement resolution: [PLACEHOLDER].
+
+| Feature | CAD nominal | Disc A measured | Disc B measured | Deviation | Tool |
+| ------- | ----------: | --------------: | --------------: | --------: | ---- |
+| Eccentric bearing bore | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] |
+| Lobe profile fit (roller PCD 176 mm, roller radius 11 mm, eccentricity 3 mm) | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] |
+| Disc thickness | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] |
+| Additional holes and features | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] |
+| Flatness | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] |
+
+### Functional checks
+
+* [ ] Bearing press-fit feel: [PLACEHOLDER]
+* [ ] Lobes mesh with rollers without binding: [PLACEHOLDER]
+* [ ] Spins freely by hand when assembled: [PLACEHOLDER]
+* [ ] Compared to printed disc (feel, backlash, friction): [PLACEHOLDER]
+
+## 6. Final Application
+
+The metal discs are installed in the two-stage cycloidal drive that serves as the base joint of the robotic arm.
+
+<p align="center">
+  <img width="75%" alt="PCBWay metal discs installed in the gearbox" src="PLACEHOLDER_installed.jpg" />
+</p>
+
+* **Installation status:** [PLACEHOLDER]
+* **Test results (printed vs. metal discs):** [PLACEHOLDER: ratio, backlash, current draw, efficiency, once measured]
+* **Next steps:** [PLACEHOLDER: robotic arm integration, load testing]
+* **Other possible applications of the design:** [PLACEHOLDER: e.g. other robot joints, gimbals]
+
+## 7. PCBWay's Advantages
+
+Based on my experience with this order:
+
+* **[PLACEHOLDER: advantage 1, e.g. communication]:** [evidence from my order]
+* **[PLACEHOLDER: advantage 2, e.g. packaging]:** [evidence from my order]
+* **[PLACEHOLDER: advantage 3, e.g. accuracy]:** [link to the dimensions table above]
+* **[PLACEHOLDER: advantage 4, e.g. lead time]:** [actual days from order to delivery]
+* **Tip for others:** [PLACEHOLDER: one honest caveat or tip, e.g. specify critical tolerances in the order notes]
+
+Thank you to **PCBWay** for sponsoring these parts and supporting this project.
