@@ -10,7 +10,7 @@ The project explores the design, manufacturing, and control of a high-ratio tran
   <img width="75%" alt="Assembled two-stage cycloidal drive" src="https://github.com/user-attachments/assets/79df8333-416f-4b2a-8f23-640c26adfa3a" />
 </p>
 
-> **Current status:** Mechanical assembly completed and connected to the BLDC motor. The theoretical reduction ratio is **121:1**, although the actual reduction ratio has not yet been experimentally verified. It is currently mounted to a bracket that will serve as the base joint of a robotic arm.
+> **Current status:** Mechanical assembly completed and connected to the BLDC motor. The theoretical reduction ratio is **121:1**, although the actual reduction ratio has not yet been experimentally verified. It is currently mounted to a temporary bracket that will help with testing.
 
 **Check out MEDIA.md to see some videos I made on this cycloidal drive!**
 
@@ -24,8 +24,6 @@ The project explores the design, manufacturing, and control of a high-ratio tran
 **Experimental characterization: IN PROGRESS**
 
 **Integration into robotic arm: IN PROGRESS**
-
-**PCBWay CNC metal discs: [PLACEHOLDER: ordered / received / installed / tested]**
 
 **Current CAD Model as of 8/30/26:**
 <p align="center">
@@ -586,10 +584,9 @@ In my cycloidal gearbox, it's designed to handle large loads with a 121:1 ratio.
   <img width="45%" alt="CNC discs unpacked" src="PLACEHOLDER_unboxing_parts.jpg" />
 </p>
 
-* **Packaging:** [PLACEHOLDER: how the parts were protected]
-* **Quantity received:** [PLACEHOLDER: 2 of 2 discs, anything else included]
-* **Surface quality:** [PLACEHOLDER: tool marks, burrs, edge condition, finish consistency]
-* **Notes:** [PLACEHOLDER: any cosmetic issues or surprises]
+* **Packaging:** Parts were tightly wrapped in styrofoam, thoroughly packaged within the box
+* **Surface quality:** Parts were perfectly smooth, no sharp edges, no visual marks or burrs on its surface
+* **Notes:** The parts are so smooth that when you stack them on top of each other you can feel the air provide cushioning before the disks settle on each other, which I thought was pretty cool.
 
 <p align="center">
   <img width="75%" alt="Close-up of CNC disc surface and lobes with scale reference" src="PLACEHOLDER_surface_closeup.jpg" />
@@ -597,10 +594,10 @@ In my cycloidal gearbox, it's designed to handle large loads with a 121:1 ratio.
 
 ### Functional checks
 
-* [ ] Bearing press-fit feel: [PLACEHOLDER]
-* [ ] Lobes mesh with rollers without binding: [PLACEHOLDER]
-* [ ] Spins freely by hand when assembled: [PLACEHOLDER]
-* [ ] Compared to printed disc (feel, backlash, friction): [PLACEHOLDER]
+* [ ] Bearing press-fit feel: Tight, needs to be hammered in
+* [x] Lobes mesh with rollers without binding: Disk sits within its respective stage perfectly with no issues, there are no noticeable gaps and contacts each bearing. 
+* [x] Spins freely by hand when assembled: Spins very easily within its respective stage, increased inertia makes it spin longer by hand
+* [ ] Compared to printed disc: Feels much better compared to the printed disks, has a much higher degree of quality and is expected to allow this actuator to truly work at higher loads.
 
 ## 5. Final Application
 
@@ -610,19 +607,23 @@ The metal discs are installed in the two-stage cycloidal drive that serves as th
   <img width="75%" alt="PCBWay metal discs installed in the gearbox" src="PLACEHOLDER_installed.jpg" />
 </p>
 
-* **Installation status:** [PLACEHOLDER]
-* **Test results (printed vs. metal discs):** [PLACEHOLDER: ratio, backlash, current draw, efficiency, once measured]
-* **Next steps:** [PLACEHOLDER: robotic arm integration, load testing]
-* **Other possible applications of the design:** [PLACEHOLDER: e.g. other robot joints, gimbals]
+* **Installation status:** In progress
+* **Next steps:** Load testing with the new metal disks
+* **Other possible applications of the design:** Widespread use to any generic cycloidal actuator for robotic joints.
 
 ## 7. PCBWay's Advantages
 
-Based on my experience with this order:
 
-* **[PLACEHOLDER: advantage 1, e.g. communication]:** [evidence from my order]
-* **[PLACEHOLDER: advantage 2, e.g. packaging]:** [evidence from my order]
-* **[PLACEHOLDER: advantage 3, e.g. accuracy]:** [link to the dimensions table above]
-* **[PLACEHOLDER: advantage 4, e.g. lead time]:** [actual days from order to delivery]
-* **Tip for others:** [PLACEHOLDER: one honest caveat or tip, e.g. specify critical tolerances in the order notes]
+* **Convenience:**
+* If you're invested into creating some project like this, chances are you're going to want a custom made part of high quality than you can produce. PCBWay is a very convenient resource to use in this case, where you can simply upload your file, specify what material, finish, and whatever else and have them make it for you.
+* **Simplicity:**
+* The whole process of getting the parts was very simple. Once the part files are uploaded, you can choose the material, specific post processing, and some evaluations of the part before it's sent to you. Once those are ordered, a status of your parts are provided, giving transparency of the whole process and when you can expect your part to arrive.
+* **Quality:**
+* Quality of the parts was very good, no visual marks, dents, burrs, etc of any kind, and tolerances were perfect for my project.
+* **Customer Service**
+* Customer service is always willing to help out. They will let you know if there are problems with the part that you uploaded and let you know what to change, give suggestions, and are always clear about any updates to your order, which is very appreciated.
+* **Tip for others:**
+* Overall a great service that I will likely be using again and would recommend others to use. I would say however, unless you live in China, turnaround time for these parts could take 2-3 weeks, so plan ahead and make sure to order your parts early, especially if you are on a timeline.
 
-Thank you to **PCBWay** for sponsoring these parts and supporting this project.
+
+Huge thank you to **PCBWay** for sponsoring these parts and supporting this project. IT is very much appreciated and your contribution to this project will help a great deal as it develops.
