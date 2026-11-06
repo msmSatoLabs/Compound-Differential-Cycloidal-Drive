@@ -4,7 +4,7 @@ A custom-designed, 3D-printed two-stage cycloidal drive developed as the transmi
 
 The project explores the design, manufacturing, and control of a high-ratio transmission capable of converting the high-speed, relatively low-torque output of a BLDC motor into the high-torque, low-speed motion required for a robotic arm.
 
-> **Sponsor:** This project was supported by **[PCBWay](https://www.pcbway.com)**, which sponsored two **CNC-machined metal cycloidal discs** for the gearbox. All measurements, test results, and opinions in this repository are my own. See [PCBWay Sponsorship: Metal CNC Cycloidal Discs](#pcbway-sponsorship-metal-cnc-cycloidal-discs) near the end of this page.
+> **Sponsor:** This project was supported by **[PCBWay](https://www.pcbway.com)**, which sponsored two **CNC-machined metal cycloidal discs** for the gearbox. All measurements, test results, and opinions in this repository are my own. See [PCBWay Sponsorship: Metal CNC Cycloidal Discs](#pcbway-sponsorship-metal-cnc-cycloidal-discs) near the end of this page. 
 
 <p align="center">
   <img width="75%" alt="Assembled two-stage cycloidal drive" src="https://github.com/user-attachments/assets/79df8333-416f-4b2a-8f23-640c26adfa3a" />
@@ -548,8 +548,10 @@ Ultimately, the goal is to determine how closely the physical gearbox performs t
 ---
 
 # PCBWay Sponsorship: Metal CNC Cycloidal Discs
-
-> **Disclosure:** PCBWay sponsored the two CNC-machined cycloidal discs described in this section. All measurements, test results, and opinions are my own.
+<p align="center">
+<img width="300" height="82" alt="PCBWay svg" src="https://github.com/user-attachments/assets/a02564ac-fd54-4e3f-9934-e3a63c6626c2" />
+</p>
+**Disclosure:** PCBWay sponsored the two CNC-machined cycloidal discs described in this section. All measurements, test results, and opinions are my own.
 
 <p align="center">
   <img width="75%" alt="PCBWay CNC-machined cycloidal discs next to the gearbox" src="PLACEHOLDER_pcbway_hero.jpg" />
