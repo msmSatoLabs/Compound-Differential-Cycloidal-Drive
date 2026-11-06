@@ -557,30 +557,25 @@ Ultimately, the goal is to determine how closely the physical gearbox performs t
 
 ## 1. About PCBWay
 
-[PCBWay](https://www.pcbway.com) is an online manufacturing service. [PLACEHOLDER: 2-3 sentences in my own words on PCBWay's services, e.g. PCB fabrication, CNC machining, 3D printing, sheet metal; verify against pcbway.com]
+[PCBWay](https://www.pcbway.com) is an online manufacturing service that offers PCB Fabrication, CNC Machining, 3D Printing, and offer just about any kind of manufacturing that you can think of.
 
 For this project I used their **CNC machining** service to produce the metal cycloidal discs.
 
 ## 2. Project Background
 
-[PLACEHOLDER: short story of why metal discs were needed.]
-
-Points to cover:
-
-* The discs carry the load in each stage and mesh directly with the rollers, so profile accuracy and wear resistance matter
-* The target output torque is ~490 N·m, and printed discs are limited by layer adhesion, print orientation, and stress concentrations (see [Engineering Challenges](#engineering-challenges))
-* The parametric CAD model made it possible to export the exact disc geometry (R = 176 mm PCD, roller radius 11 mm, eccentricity 3 mm) for machining
-* [PLACEHOLDER: which stage(s) the two discs are for, and what I want to learn from replacing the printed discs]
+In my cycloidal gearbox, it's designed to handle large loads with a 121:1 ratio. The cycloidal gears driving this, however, aren't able to handle this as they are 3D printed and made from PETG plastic. With aluminum disks, they are able to hold more radial load and thus increase the performance of this gearbox. The discs carry the load in each stage and mesh directly with the rollers, so profile accuracy and wear resistance matter. The target output torque is ~490 N·m, and the printed discs are limited by layer adhesion, print orientation, and stress concentrations (see [Engineering Challenges](#engineering-challenges)). The parametric CAD model made it possible to export the exact disc geometry for machining. 
 
 ## 3. Ordering Process
 
-| Step | What I did | Screenshot |
-| ---- | ---------- | ---------- |
-| 1. Export CAD | [PLACEHOLDER: file format, e.g. STEP, and any prep] | `PLACEHOLDER_order_step1.png` |
-| 2. Upload and configure | [PLACEHOLDER: material, finish, quantity, tolerance selections] | `PLACEHOLDER_order_step2.png` |
-| 3. Notes for the machinist | [PLACEHOLDER: critical features called out] | `PLACEHOLDER_order_step3.png` |
-| 4. Review and confirm | [PLACEHOLDER: any questions or feedback from PCBWay's engineers] | `PLACEHOLDER_order_step4.png` |
-| 5. Production and shipping | [PLACEHOLDER: order date, ship date, arrival date] | `PLACEHOLDER_order_step5.png` |
+
+1. Upload
+<img width="1637" height="1085" alt="image" src="https://github.com/user-attachments/assets/c8ffb3f0-c1c2-4b78-a5ae-cc8d33ccd2df" />
+
+2. Configure
+<img width="1060" height="857" alt="image" src="https://github.com/user-attachments/assets/20bdda17-1611-40f1-bd22-0f46a5ec26fa" />
+
+3. Review
+<img width="1630" height="1082" alt="image" src="https://github.com/user-attachments/assets/827c6d30-12b2-4e83-83c8-5acafa4b726f" />
 
 ## 4. Unboxing
 
@@ -598,18 +593,6 @@ Points to cover:
   <img width="75%" alt="Close-up of CNC disc surface and lobes with scale reference" src="PLACEHOLDER_surface_closeup.jpg" />
 </p>
 
-## 5. Dimensions and Precision
-
-Measured with: [PLACEHOLDER: calipers / micrometer / pin gauges / bore gauge]. Measurement resolution: [PLACEHOLDER].
-
-| Feature | CAD nominal | Disc A measured | Disc B measured | Deviation | Tool |
-| ------- | ----------: | --------------: | --------------: | --------: | ---- |
-| Eccentric bearing bore | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] |
-| Lobe profile fit (roller PCD 176 mm, roller radius 11 mm, eccentricity 3 mm) | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] |
-| Disc thickness | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] |
-| Additional holes and features | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] |
-| Flatness | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] | [PLACEHOLDER] |
-
 ### Functional checks
 
 * [ ] Bearing press-fit feel: [PLACEHOLDER]
@@ -617,7 +600,7 @@ Measured with: [PLACEHOLDER: calipers / micrometer / pin gauges / bore gauge]. M
 * [ ] Spins freely by hand when assembled: [PLACEHOLDER]
 * [ ] Compared to printed disc (feel, backlash, friction): [PLACEHOLDER]
 
-## 6. Final Application
+## 5. Final Application
 
 The metal discs are installed in the two-stage cycloidal drive that serves as the base joint of the robotic arm.
 
