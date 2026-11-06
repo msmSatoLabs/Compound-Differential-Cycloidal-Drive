@@ -614,16 +614,11 @@ The metal discs are installed in the two-stage cycloidal drive that serves as th
 ## 7. PCBWay's Advantages
 
 
-* **Convenience:**
-* If you're invested into creating some project like this, chances are you're going to want a custom made part of high quality than you can produce. PCBWay is a very convenient resource to use in this case, where you can simply upload your file, specify what material, finish, and whatever else and have them make it for you.
-* **Simplicity:**
-* The whole process of getting the parts was very simple. Once the part files are uploaded, you can choose the material, specific post processing, and some evaluations of the part before it's sent to you. Once those are ordered, a status of your parts are provided, giving transparency of the whole process and when you can expect your part to arrive.
-* **Quality:**
-* Quality of the parts was very good, no visual marks, dents, burrs, etc of any kind, and tolerances were perfect for my project.
-* **Customer Service**
-* Customer service is always willing to help out. They will let you know if there are problems with the part that you uploaded and let you know what to change, give suggestions, and are always clear about any updates to your order, which is very appreciated.
-* **Tip for others:**
-* Overall a great service that I will likely be using again and would recommend others to use. I would say however, unless you live in China, turnaround time for these parts could take 2-3 weeks, so plan ahead and make sure to order your parts early, especially if you are on a timeline.
+**Convenience:** If you're invested into creating some project like this, chances are you're going to want a custom made part of high quality than you can produce. PCBWay is a very convenient resource to use in this case, where you can simply upload your file, specify what material, finish, and whatever else and have them make it for you.
+**Simplicity:** The whole process of getting the parts was very simple. Once the part files are uploaded, you can choose the material, specific post processing, and some evaluations of the part before it's sent to you. Once those are ordered, a status of your parts are provided, giving transparency of the whole process and when you can expect your part to arrive.
+**Quality:** Quality of the parts was very good, no visual marks, dents, burrs, etc of any kind, and tolerances were perfect for my project.
+**Customer Service** Customer service is always willing to help out. They will let you know if there are problems with the part that you uploaded and let you know what to change, give suggestions, and are always clear about any updates to your order, which is very appreciated.
+**Tip for others:** Overall a great service that I will likely be using again and would recommend others to use. I would say however, unless you live in China, turnaround time for these parts could take 2-3 weeks, so plan ahead and make sure to order your parts early, especially if you are on a timeline.
 
 
 Huge thank you to **PCBWay** for sponsoring these parts and supporting this project. IT is very much appreciated and your contribution to this project will help a great deal as it develops.
