@@ -609,7 +609,7 @@ The metal discs are installed in the two-stage cycloidal drive that serves as th
 
 * **Installation status:** In progress
 * **Next steps:** Load testing with the new metal disks
-* **Other possible applications of the design:** Widespread use to any generic cycloidal actuator for robotic joints.
+* **Other possible applications of the design:** applicable to any generic cycloidal actuator for robotic joints.
 
 ## 7. PCBWay's Advantages
 
@@ -625,4 +625,4 @@ The metal discs are installed in the two-stage cycloidal drive that serves as th
 **Tip for others:** Overall a great service that I will likely be using again and would recommend others to use. I would say however, unless you live in China, turnaround time for these parts could take 2-3 weeks, so plan ahead and make sure to order your parts early, especially if you are on a timeline.
 
 
-Huge thank you to **PCBWay** for sponsoring these parts and supporting this project. IT is very much appreciated and your contribution to this project will help a great deal as it develops.
+Huge thank you to **PCBWay** for sponsoring these parts and supporting this project. It is very much appreciated and your contribution to this project will help a great deal as it develops.
