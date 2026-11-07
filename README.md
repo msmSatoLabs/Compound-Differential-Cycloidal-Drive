@@ -552,7 +552,7 @@ Ultimately, the goal is to determine how closely the physical gearbox performs t
 **Disclosure:** PCBWay sponsored the two CNC-machined cycloidal discs described in this section. All measurements, test results, and opinions are my own.
 
 <p align="center">
-  <img width="75%" alt="PCBWay CNC-machined cycloidal discs next to the gearbox" src="PLACEHOLDER_pcbway_hero.jpg" />
+  <img width="1127" height="841" alt="image" src="https://github.com/user-attachments/assets/539c4a45-dd41-48a4-af73-c01e2ea455ab" />
 </p>
 
 ## 1. About PCBWay
@@ -580,17 +580,13 @@ In my cycloidal gearbox, it's designed to handle large loads with a 121:1 ratio.
 ## 4. Unboxing
 
 <p align="center">
-  <img width="45%" alt="PCBWay package as received" src="PLACEHOLDER_unboxing_package.jpg" />
-  <img width="45%" alt="CNC discs unpacked" src="PLACEHOLDER_unboxing_parts.jpg" />
+  <img width="882" height="792" alt="image" src="https://github.com/user-attachments/assets/cdf5d620-e09d-4994-b5b7-49f227ab9ca2" />
+  <img width="1192" height="777" alt="image" src="https://github.com/user-attachments/assets/b4e2aa94-25f0-4e97-b8ac-21c7b0a1e7a3" />
 </p>
 
 * **Packaging:** Parts were tightly wrapped in styrofoam, thoroughly packaged within the box
 * **Surface quality:** Parts were perfectly smooth, no sharp edges, no visual marks or burrs on its surface
 * **Notes:** The parts are so smooth that when you stack them on top of each other you can feel the air provide cushioning before the disks settle on each other, which I thought was pretty cool.
-
-<p align="center">
-  <img width="75%" alt="Close-up of CNC disc surface and lobes with scale reference" src="PLACEHOLDER_surface_closeup.jpg" />
-</p>
 
 ### Functional checks
 
@@ -604,7 +600,8 @@ In my cycloidal gearbox, it's designed to handle large loads with a 121:1 ratio.
 The metal discs are installed in the two-stage cycloidal drive that serves as the base joint of the robotic arm.
 
 <p align="center">
-  <img width="75%" alt="PCBWay metal discs installed in the gearbox" src="PLACEHOLDER_installed.jpg" />
+  <img width="635" height="712" alt="image" src="https://github.com/user-attachments/assets/b95c1f3d-d1d1-4274-93ff-0bfa42637400" />
+  <img width="637" height="637" alt="image" src="https://github.com/user-attachments/assets/3fee3815-653b-4f6d-979a-831c166ed5b8" />
 </p>
 
 * **Installation status:** In progress
